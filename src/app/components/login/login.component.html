@@ -1,0 +1,19 @@
+<mat-card>
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Login</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form class="example-form">
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="UserName">
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Password" type="password" />
+      </mat-form-field>
+      <button mat-raised-button (click)="login()">Login</button>
+      <button mat-raised-button>Clear</button>
+    </form>
+  </mat-card-content>
+</mat-card>
